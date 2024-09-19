@@ -1,0 +1,143 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #003366;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções de Seguro */
+.insurance-section {
+    background-color: #fff;
+    margin: 40px 0;
+    padding: 60px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.insurance-section:hover {
+    transform: translateY(-10px);
+}
+
+.insurance-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.insurance-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.insurance-section .insurance-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.insurance-section .insurance-image:hover {
+    transform: scale(1.05);
+}
+
+/* Botão Call to Action */
+.cta-btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #004999;
+    transform: translateY(-5px);
+}
+
+/* Seção de Contato */
+.contact-section {
+    background-color: #fff;
+    margin: 40px 0;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
