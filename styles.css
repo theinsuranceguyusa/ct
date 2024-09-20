@@ -141,3 +141,52 @@ footer {
     font-size: 1rem;
 }
 
+/* Ajuste para Mobile */
+@media (max-width: 768px) {
+    /* Ajuste da imagem e do texto no cabeçalho */
+    header.main-header {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    header .logo {
+        width: 60px; /* Diminui o tamanho do logo para caber melhor */
+        margin-bottom: 5px;
+    }
+
+    /* Hero Section para dispositivos móveis */
+    .hero {
+        padding: 50px 20px; /* Reduz o padding para dispositivos móveis */
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .hero h1 {
+        font-size: 2rem; /* Reduz o tamanho da fonte em telas pequenas */
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 1.2rem; /* Texto menor para dispositivos móveis */
+        margin-bottom: 20px;
+    }
+
+    /* Centraliza o texto para evitar ser tampado pela imagem */
+    .hero h1, .hero p {
+        text-align: center;
+    }
+
+    /* Imagens de seguros ajustadas */
+    .insurance-section img {
+        width: 100%; /* Certifica que a imagem ocupe todo o espaço disponível */
+        max-width: none; /* Remove o limite de largura em dispositivos móveis */
+    }
+
+    /* Botões ajustados para caber na tela */
+    .cta-btn {
+        width: 100%; /* Faz o botão ocupar toda a largura disponível */
+        padding: 12px; /* Ajuste no padding para ficar proporcional */
+        font-size: 1rem;
+    }
+}
+
