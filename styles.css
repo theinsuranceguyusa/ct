@@ -283,3 +283,32 @@ footer {
         margin-top: 20px;
     }
 }
+
+/* Ajuste somente para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Remove a imagem do topo (imagem de fundo) para mobile */
+    .hero {
+        background: none; /* Remove a imagem de fundo */
+        height: auto; /* Ajusta a altura automaticamente para o conteúdo */
+        padding: 50px 20px; /* Ajuste de padding para manter espaçamento */
+    }
+
+    /* Ajuste do texto na hero para mobile */
+    .hero h1 {
+        font-size: 2.5rem;
+        color: #000; /* Altera a cor do texto se necessário para contraste */
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        color: #000; /* Mantém o contraste para o texto */
+    }
+
+    /* Ajustes no botão para dispositivos móveis */
+    .cta-btn {
+        width: 80%; /* Faz o botão ocupar 80% da largura da tela */
+        padding: 15px;
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+}
