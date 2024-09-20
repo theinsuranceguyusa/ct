@@ -230,3 +230,56 @@ footer {
         font-size: 1.2rem;
     }
 }
+
+/* Ajuste somente para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Ajuste do Hero Section para Mobile */
+    .hero {
+        position: relative;
+        background: url('sua-imagem.jpg') no-repeat center center;
+        background-size: cover;
+        height: 70vh; /* A hero section ocupará 70% da altura da tela */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5); /* Sobreposição escura na imagem de fundo */
+        z-index: 1;
+    }
+
+    /* Texto dentro da hero para mobile */
+    .hero h1 {
+        position: relative;
+        z-index: 2; /* Garante que o texto fique acima da sobreposição */
+        font-size: 2.5rem;
+        color: #ffffff;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .hero p {
+        position: relative;
+        z-index: 2;
+        font-size: 1.2rem;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    /* Ajustes no botão para dispositivos móveis */
+    .cta-btn {
+        width: 80%; /* Faz o botão ocupar 80% da largura da tela */
+        padding: 15px;
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+}
